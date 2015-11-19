@@ -11,7 +11,7 @@ server {
         index index.html index.htm;
 
         # Make site accessible from http://localhost/
-        server_name page.sbeq.com;
+        server_name page.sbeq.com wepage.daoapp.io;
         access_log /var/store/wepage/nginx/access.log;
 
         location / {
